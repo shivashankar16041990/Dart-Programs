@@ -20,6 +20,7 @@ class mycustomer extends customer
 {
   void displaybal()
   {
+    print("from child class");
     print (balance);
 
   }
@@ -27,6 +28,8 @@ class mycustomer extends customer
   {
     this.balance=bal;
   }
+
+
 
 }
 
